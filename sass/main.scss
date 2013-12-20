@@ -93,112 +93,16 @@ textarea{ resize: vertical; }
   &:after{ clear: both; }
 }
 
-$black: #000;
+//white tone
 $white: #fff;
 
-//grey tone
-$grey_80: #4d4d4d;
-$grey_20: #c1c1c1;
-
-// Blue tones
-$blue_bright: #00caf2;
-$blue_light: #b2f2ff;
-
-// Dark Blue Tones
-$dblue_light: #2d3743;
-
-// Violet tones
-$violet_dark: #1d1918;
-
-//green Tone
-$green_normal: #009933;
-$green_light: #00cc33;
+//black tone
+$black: #000;
 
 body{
 
-  font: 100% 'Open Sans', Arial, Helvetica, sans-serif;
-  background: $white;}
-
-.dialPad{
-
-  .number{
-
-    position: relative;
-    z-index: 2;
-    padding: 15px 20px;
-    color: $grey_80;
-    font-weight: 300;
-    font-size: 40px;
-    background: $white;
-    height: 78px;
-  }
-
-  .dials{
-
-    @include clear;
-    margin: -1px 0 0 -1px;
-    background: $violet_dark;
-    cursor: pointer;
-
-    .digits{
-
-      float: left;
-      width: 33.33%;
-
-      p{
-
-        font-weight: 600;
-        padding: 15px 25px;
-        border-top: 1px solid $grey_80;
-        border-right: 1px solid $black;
-        border-bottom: 1px solid $black;
-        border-left: 1px solid $grey_80;
-
-        strong{
-
-          font-size: 50px;
-          margin-right: 8px;
-          color: $white;
-        }
-      }
-
-      &:active{
-
-        background: $blue_bright;
-        border-top-color: $blue_light;
-      }
-    }
-  }
-}
-
-.compact{
-
-  .dials{
-
-    .digits{
-
-      p{
-
-        padding: 25px 15px;
-
-        strong{ font-size:30px; }
-        sup{
-
-          text-transform: uppercase;
-          color: $grey_20;
-        }
-      }
-    }
-
-    .pad-action{
-
-      background: $green_normal;
-
-      &:active{ background: $green_light; }
-    }
-
-  }
-
+  background: $white;
+  color: $black;
 }
 /* ==========================================================================
    Helper classes
