@@ -54,8 +54,16 @@
     </footer>
 </div>
 <!-- its a good practice to compress your js files when deploying to live -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<!--[if gte IE 9]>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.2.1.0.min.js"><\/script>')</script>
+<![endif]-->
+
+<!--[if lte IE 8]>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.1.11.0.min.js"><\/script>')</script>
+<![endif]-->
+
 <script src="js/plugins.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
