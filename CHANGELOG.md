@@ -1,6 +1,7 @@
 Change Log
 -----------
 
-### 1.0.0.0 (December 1, 2013)
+### 1.0.0.0 (April 20, 2014)
 
-- Added sample
+- Folder structure added
+- Folder security added
