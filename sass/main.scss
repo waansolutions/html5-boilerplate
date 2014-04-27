@@ -149,7 +149,7 @@ a{
 
   text-decoration: none;
   &:hover{ text-decoration: none; }
-  @include link-colors($red-d5000d,$red-c5000c);
+  @include link-colors($red-d5000d,$red-c5000c,$red-d5000d,$red-d5000d,$red-d5000d);
 
   &:link,&:visited,&:hover,&:active,&:focus{ text-decoration: none; }
 }
