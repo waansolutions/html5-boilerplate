@@ -1,6 +1,3 @@
 html5-boilerplate
-=================
-
-HTML 5 template for UI/UX developers
-------------------------------------
-
+##HTML 5 template for UI/UX developers
+======================================
