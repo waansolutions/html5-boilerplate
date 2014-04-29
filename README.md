@@ -100,10 +100,8 @@ For more details contact admin@waan.it
 
 ####Special thanks to
 
-
-
-[HTML5boilerplate](http://html5boilerplate.com/)
-[Compass](http://compass-style.org/)
-[Jquery](http://jquery.com/)
-[Bootstrap](http://getbootstrap.com/)
-[Fontawesome](http://fortawesome.github.io/Font-Awesome/)
+#####[HTML5boilerplate](http://html5boilerplate.com/)
+#####[Compass](http://compass-style.org/)
+#####[Jquery](http://jquery.com/)
+#####[Bootstrap](http://getbootstrap.com/)
+#####[Fontawesome](http://fortawesome.github.io/Font-Awesome/)
