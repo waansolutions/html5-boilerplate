@@ -105,3 +105,8 @@ For more details contact admin@waan.it
 #####[Jquery](http://jquery.com/)
 #####[Bootstrap](http://getbootstrap.com/)
 #####[Fontawesome](http://fortawesome.github.io/Font-Awesome/)
+
+
+####Support or Contact
+
+Improve your services, optimize your operations and reduce your costs! html5-boilerplate is being developed by a team who are experts in HTML5 and advanced division. If you have any queries related to html5-boilerplate, we are right here to assist you at any point contact us support@waan.it
