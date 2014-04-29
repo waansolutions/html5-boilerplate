@@ -21,6 +21,7 @@ html5-boilerplate is a bundled of pre-built open source projects configured for 
 Package contains all source files, extract it to a preferred location. Check if the following files are available in the folder:
 
 ````git
+- .sass-cache
 -css
         |- 404.css
         |- bootstrap.min.css                        v3.1.1-min
@@ -72,6 +73,7 @@ Package contains all source files, extract it to a preferred location. Check if 
     - 404.html
     - apple-touch-icon-precompressed.png
     - CHANGELOG.md
+    - config.rb
     - crossdomain.xml
     - favicon.ico
     - human.txt
