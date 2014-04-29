@@ -1,7 +1,7 @@
 Changelog
 ===========
 
-### 1.0.0.0 (April 20, 2014)
+### 1.0.0.0 (April 30, 2014)
 
-- Folder structure added
-- Folder security added
+- Folder structure updated
+- Sass updated
