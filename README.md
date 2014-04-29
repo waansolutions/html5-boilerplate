@@ -5,9 +5,12 @@ html5-boilerplate
 
 ####Welcome to html5-boilerplate
 
-html5-boilerplate is a professional frontend template bundled with HTML5boilerplate, Compass, Bootstrap, font-awesome, PIE.htc and Jquery for UI/UX designer and developers. Packaged to be super light weight, high performance and robust, html5-boilerplate support both fix and fluid layouts with the help of bootstrap-theme.
+A state-of-the-art online tool for creating user-friendly web apps and websites for web developers of all skill levels, html5-boilerplate is now popularly recognized for its highly efficient yet easy to use open source template.
 
-html5-boilerplate is a bundled of pre-built open source projects configured for ease-of-use. You can download the bundle from above links or git fork original repo and git clone, or just fetch the original repo.
+Fully integrated with HTML5boilerplate, Compass, Bootstrap, jQuery, PIE.htc and Font Awesome, producing web apps and websites that are either in a fixed or fluid layout with superior performance and speedy loading is a specialty of html5-boilerplate.
+
+Readily available as pre-devised open source coding, html5-boilerplate is only a few clicks away. You can download the bundles from the links on the top of this page. Alternatively, you could also fork the git repo or clone it.
+
 
 ````git
     $ git init
@@ -19,7 +22,9 @@ html5-boilerplate is a bundled of pre-built open source projects configured for 
 
 ####Usage
 
-Package contains all source files, extract it to a preferred location. Check if the following files are available in the folder:
+Upon download, your program package should contain all source codes, as shown below. This package can be extracted to any location that you prefer on your system.
+Whenever you wish to use these coding, simply include files and all other related dependencies within them.
+
 
 ````git
 - .sass-cache
@@ -84,18 +89,16 @@ Package contains all source files, extract it to a preferred location. Check if 
 - robots.txt
 ````
 
-The source code is self-explanatory so if you wish to use html5-boilerplate just include the files and all dependencies.
-
 
 ####About waan.it
 
 "waanit - Exceptional solutions through innovation"
 
-waanit specialized in machine learning and augmented reality base application development in any device or platform. we are experts in understanding client requirement and optimizing business from the inside, providing expert and enhanced solutions on diverse technologies.
+Specialized in machine learning, augmented reality and application development  waanit strives to provide compatible yet effective solutions for enhancing varied web, desktop and mobile platforms to suit a large number of applications (anything from personal to businesses use).
 
-waanit also works on research and development of new technologies and concepts that will help others via open source projects.
+In addition to that, we also perform comprehensive research and development on new and upcoming technologies with the aim of contributing to the progress of more dynamic application development.
 
-For more details contact admin@waan.it
+If you have any questions, please feel free to e-mail us at admin@waan.it, and we will respond back to you at the earliest.
 
 
 ####Special thanks to
@@ -110,7 +113,7 @@ For more details contact admin@waan.it
 
 ####Support or Contact
 
-Improve your services, optimize your operations and reduce your costs! html5-boilerplate is being developed by a team who are experts in HTML5 and advanced division. If you have any queries related to html5-boilerplate, we are right here to assist you at any point contact us support@waan.it
+At waanit, we want to make sure that all the high-class qualities of html5-boilerplate are utilized to their highest potential. So if you ever wish to know more about this template, kindly e-mail us at support@waan.it and we will be glad to assist you.
 
 
 html5-boilerplate is maintained & developed [waanit](http://www.waan.it)
