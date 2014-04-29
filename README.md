@@ -84,3 +84,8 @@ Package contains all source files, extract it to a preferred location. Check if 
 ````
 
 The source code is self-explanatory so if you wish to use html5-boilerplate just include the files and all dependencies.
+
+
+####About waan.it
+
+"waanit - Exceptional solutions through innovation"
