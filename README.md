@@ -89,3 +89,9 @@ The source code is self-explanatory so if you wish to use html5-boilerplate just
 ####About waan.it
 
 "waanit - Exceptional solutions through innovation"
+
+waanit specialized in machine learning and augmented reality base application development in any device or platform. we are experts in understanding client requirement and optimizing business from the inside, providing expert and enhanced solutions on diverse technologies.
+
+waanit also works on research and development of new technologies and concepts that will help others via open source projects.
+
+For more details contact admin@waan.it
