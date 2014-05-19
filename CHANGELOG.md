@@ -1,4 +1,4 @@
-Changelog
+change log
 ===========
 
 ### 1.0.0.0 (April 30, 2014)
