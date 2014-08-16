@@ -28,9 +28,14 @@
 
 # OS generated files #
 ######################
+*~
+._*
 .DS_Store
 .DS_Store?
-._*
+.svn
+.cvs
+*.bak
+*.swp
 .Spotlight-V100
 .Trashes
 Icon?
@@ -40,3 +45,4 @@ Thumbs.db
 # User specific #
 #################
 .idea/
+.sass-cache/

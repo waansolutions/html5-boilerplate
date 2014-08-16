@@ -3,7 +3,7 @@
 
 # TEAM
 
-    admin@waan.it -- developer -- waan_it
+    admin@waan.it -- developer -- waanit
 
 # THANKS
 
