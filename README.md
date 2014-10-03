@@ -105,7 +105,7 @@ Whenever you wish to use these coding, simply include files and all other relate
 
 ####About waan.it
 
-"waanit - Exceptional solutions through innovation"
+"waanit - Change the way you think"
 
 Specialized in machine learning, augmented reality and application development  waanit strives to provide compatible yet effective solutions for enhancing varied web, desktop and mobile platforms to suit a large number of applications (anything from personal to businesses use).
 
