@@ -126,7 +126,7 @@ If you have any questions, please feel free to e-mail us at admin@waan.it, and w
 
 ####Support or Contact
 
-At waanit, we want to make sure that all the high-class qualities of html5-boilerplate are utilized to their highest potential. So if you ever wish to know more about this template, kindly e-mail us at support@waan.it and we will be glad to assist you.
+At WAANIT, we want to make sure that all the high-class qualities of html5-boilerplate are utilized to their highest potential. So if you ever wish to know more about this template, kindly e-mail us at support@waan.it and we will be glad to assist you.
 
 
 html5-boilerplate is developed & maintained by [waanit](http://www.waan.it)
