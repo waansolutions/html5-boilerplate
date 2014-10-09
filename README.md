@@ -19,26 +19,19 @@ Readily available as pre-devised open source coding, html5-boilerplate is only a
     $ git checkout upstream/master
 ````
 
-
 ####Usage
 
 Upon download, your program package should contain all source codes, as shown below. This package can be extracted to any location that you prefer on your system.
 Whenever you wish to use these coding, simply include files and all other related dependencies within them.
 
-
 ````git
 - .sass-cache
 - css
     |- 404.css
-    |- bootstrap.min.css                        v3.1.1-min
-    |- bootstrap-theme.min.css                  v3.1.1-min
-    |- font-awesome.min.css                     v4.0.3-min
     |- ie.css
     |- index.html
     |- main.css
     |- normalize.css                            v1.1.3
-    |- pie.css
-    |- PIE.htc
     |- print.css
 - fonts
     |- FontAwesome.otf
@@ -59,7 +52,7 @@ Whenever you wish to use these coding, simply include files and all other relate
     |- tar-gz-icon.png
     |- zip-icon.png
 - js
-    |- bootstrap.min.js                         v3.1.1-min
+    |- bootstrap.min.js                         v3.2.0-min
     |- index.html
     |- jquery-1.11.0.min.js                     v1.11.0-min
     |- jquery-2.1.0.min.js                      v2.1.0-min
@@ -73,6 +66,13 @@ Whenever you wish to use these coding, simply include files and all other relate
     |- main.scss
     |- pie.scss
     |- print.scss
+- vendor
+    |- css
+        |- bootstrap.min.css                    v3.2.0-min
+        |- font-awesome.min.css                 v4.0.3-min
+    |- font
+    |- js
+    |- index.html
 - .gitattributes
 - .gitignore
 - .htaccess
@@ -98,10 +98,11 @@ Whenever you wish to use these coding, simply include files and all other relate
 - human.txt
 - index.html                                    HTML5boilerplate v4.3.0
 - LICENSE
+- PIE.htc
 - README.md
 - robots.txt
+- TODO.md
 ````
-
 
 ####About waan.it
 
@@ -115,7 +116,6 @@ If you have any questions, please feel free to e-mail us at admin@waan.it, and w
 
 
 ####Special thanks to
-
 
 [HTML5boilerplate](http://html5boilerplate.com/),
 [Compass](http://compass-style.org/),
