@@ -19,53 +19,26 @@ Readily available as pre-devised open source coding, html5-boilerplate is only a
     $ git checkout upstream/master
 ````
 
-
 ####Usage
 
 Upon download, your program package should contain all source codes, as shown below. This package can be extracted to any location that you prefer on your system.
 Whenever you wish to use these coding, simply include files and all other related dependencies within them.
 
-
 ````git
 - .sass-cache
 - css
     |- 404.css
-    |- bootstrap.min.css                        v3.1.1-min
-    |- bootstrap-theme.min.css                  v3.1.1-min
-    |- font-awesome.min.css                     v4.0.3-min
     |- ie.css
     |- index.html
     |- main.css
-    |- normalize.css                            v1.1.3
-    |- pie.css
-    |- PIE.htc
     |- print.css
-- fonts
-    |- FontAwesome.otf
-    |- fontawesome-webfont.eot
-    |- fontawesome-webfont.svg
-    |- fontawesome-webfont.ttf
-    |- fontawesome-webfont.woff
-    |- glyphicons-halflings-regular.eot
-    |- glyphicons-halflings-regular.svg
-    |- glyphicons-halflings-regular.ttf
-    |- glyphicons-halflings-regular.woff
-    |- index.html
 - images
-    |- body-bg.png
-    |- highlight-bg.png
+    |- 404.jpg
     |- index.html
-    |- octocat-icon.png
-    |- tar-gz-icon.png
-    |- zip-icon.png
 - js
-    |- bootstrap.min.js                         v3.1.1-min
     |- index.html
-    |- jquery-1.11.0.min.js                     v1.11.0-min
-    |- jquery-2.1.0.min.js                      v2.1.0-min
     |- main.js
     |- main.min.js
-    |- modernizr.min.js                         v2.6.2-min
 - saas
     |- 404.scss
     |- ie.scss
@@ -73,39 +46,66 @@ Whenever you wish to use these coding, simply include files and all other relate
     |- main.scss
     |- pie.scss
     |- print.scss
+- vendor
+    |- css
+        |- bootstrap.min.css                    v3.2.0-min
+        |- font-awesome.min.css                 v4.0.3-min
+        |- index.html
+        |- normalize.css                        v1.1.3-min
+    |- font
+        |- FontAwesome.otf
+        |- fontawesome-webfont.eot
+        |- fontawesome-webfont.svg
+        |- fontawesome-webfont.ttf
+        |- fontawesome-webfont.woff
+        |- glyphicons-halflings-regular.eot
+        |- glyphicons-halflings-regular.svg
+        |- glyphicons-halflings-regular.ttf
+        |- glyphicons-halflings-regular.woff
+        |- index.html
+    |- js
+        |- bootstrap.min.js                     v3.2.0-min
+        |- index.html
+        |- jquery-2.1.0.min.js                  v2.1.0-min
+        |- modernizr.min.js                     v2.6.2-min
+        |- respond.min.js                       v1.3.0-min
+    |- index.html
 - .gitattributes
 - .gitignore
 - .htaccess
 - 404.html
 - apple-touch-icon.png
-- apple-touch-icon-72x72.png
+- apple-touch-icon-57x57.png
 - apple-touch-icon-76x76.png
-- apple-touch-icon-114x114.png
 - apple-touch-icon-120x120.png
-- apple-touch-icon-144x144.png
 - apple-touch-icon-152x152.png
+- apple-touch-icon-180x180.png
+- apple-touch-icon-192x192.png
 - apple-touch-icon-precompressed.png
-- apple-touch-icon-precompressed-72x72.png
+- apple-touch-icon-precompressed-57x57.png
 - apple-touch-icon-precompressed-76x76.png
-- apple-touch-icon-precompressed-114x114.png
 - apple-touch-icon-precompressed-120x120.png
-- apple-touch-icon-precompressed-144x144.png
 - apple-touch-icon-precompressed-152x152.png
+- apple-touch-icon-precompressed-180x180.png
+- apple-touch-icon-precompressed-192x192.png
+- touch-icon-192x192.png
 - CHANGELOG.md
 - config.rb
 - crossdomain.xml
 - favicon.ico
+- favicon.png
 - human.txt
 - index.html                                    HTML5boilerplate v4.3.0
 - LICENSE
+- PIE.htc
 - README.md
 - robots.txt
+- TODO.md
 ````
-
 
 ####About waan.it
 
-"waanit - Exceptional solutions through innovation | Proud to be geeks"
+WAANIT | "Change the way you think"
 
 Specialized in machine learning, augmented reality and application development  waanit strives to provide compatible yet effective solutions for enhancing varied web, desktop and mobile platforms to suit a large number of applications (anything from personal to businesses use).
 
@@ -116,7 +116,6 @@ If you have any questions, please feel free to e-mail us at admin@waan.it, and w
 
 ####Special thanks to
 
-
 [HTML5boilerplate](http://html5boilerplate.com/),
 [Compass](http://compass-style.org/),
 [Jquery](http://jquery.com/),
@@ -126,7 +125,7 @@ If you have any questions, please feel free to e-mail us at admin@waan.it, and w
 
 ####Support or Contact
 
-At waanit, we want to make sure that all the high-class qualities of html5-boilerplate are utilized to their highest potential. So if you ever wish to know more about this template, kindly e-mail us at support@waan.it and we will be glad to assist you.
+At WAANIT, we want to make sure that all the high-class qualities of html5-boilerplate are utilized to their highest potential. So if you ever wish to know more about this template, kindly e-mail us at support@waan.it and we will be glad to assist you.
 
 
 html5-boilerplate is developed & maintained by [waanit](http://www.waan.it)
