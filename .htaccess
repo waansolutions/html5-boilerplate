@@ -520,7 +520,7 @@ FileETag None
 # Allow concatenation from within specific CSS and JS files, e.g.:
 # Inside of `script.combined.js` you could have
 #   <!--#include file="libs/jquery.js" -->
-#   <!--#include file="plugins/jquery.idletimer.js" -->
+#   <!--#include file="plugins/jquery.idletimer.min.js" -->
 # and they would be included into this single file.
 
 # <IfModule mod_include.c>
