@@ -67,8 +67,8 @@ Whenever you wish to use these coding, simply include files and all other relate
         |- bootstrap.min.js                     v3.2.0-min
         |- index.html
         |- jquery-2.1.0.min.js                  v2.1.0-min
-        |- jquery.idletimeout.js                v1.2.0
-        |- jquery.idletimer.js                  v1.2.0
+        |- jquery.idletimeout.js                v1.2.0-min
+        |- jquery.idletimer.js                  v1.2.0-min
         |- modernizr.min.js                     v2.6.2-min
         |- respond.min.js                       v1.3.0-min
     |- index.html
@@ -90,7 +90,6 @@ Whenever you wish to use these coding, simply include files and all other relate
 - apple-touch-icon-precompressed-152x152.png
 - apple-touch-icon-precompressed-180x180.png
 - apple-touch-icon-precompressed-192x192.png
-- touch-icon-192x192.png
 - CHANGELOG.md
 - config.rb
 - crossdomain.xml
@@ -103,6 +102,7 @@ Whenever you wish to use these coding, simply include files and all other relate
 - README.md
 - robots.txt
 - TODO.md
+- touch-icon-192x192.png
 ````
 
 ####About waan.it
