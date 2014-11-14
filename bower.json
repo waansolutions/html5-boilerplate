@@ -10,6 +10,7 @@
     "normalize-css": "latest",
     "jquery": "latest",
     "bootstrap": "latest",
-    "fontawesome": "latest"
+    "fontawesome": "latest",
+    "jq-idle-timer": "latest"
   }
 }
