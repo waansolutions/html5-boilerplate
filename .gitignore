@@ -62,6 +62,7 @@ access_log
 node_modules
 .idea/
 .sass-cache
+bower_components/
 
 #===================================#
 #       	User specific           #
