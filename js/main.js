@@ -9,8 +9,9 @@ $j(function(){
 
     $j.idleTimeout('#idletimeout','#idletimeout a',{
 
+        //idleAfter: 5,
         // uncomment and add server file if you need server respond
-        //keepAliveURL: 'server.php',
+        //keepAliveURL: 'jqidletimeout.php',
         //serverResponseEquals: 'OK',
 
         onTimeout: function(){
