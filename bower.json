@@ -11,6 +11,8 @@
     "jquery": "latest",
     "bootstrap": "latest",
     "fontawesome": "latest",
-    "jq-idle-timer": "latest"
+    "jq-idle-timer": "latest",
+    "jquery-validation": "latest",
+    "retina.js": "latest"
   }
 }
