@@ -9,10 +9,10 @@
     "modernizr": "latest",
     "normalize-css": "latest",
     "jquery": "latest",
+    "retina.js": "latest",
     "bootstrap": "latest",
     "fontawesome": "latest",
     "jq-idle-timer": "latest",
-    "jquery-validation": "latest",
-    "retina.js": "latest"
+    "jquery-validation": "latest"
   }
 }
