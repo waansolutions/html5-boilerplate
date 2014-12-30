@@ -1,0 +1,208 @@
+//- html5-boilerplate from waanit
+doctype html
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+head
+   meta(charset="utf-8")
+
+   meta(
+      http-equiv="X-UA-Compatible"
+      content="IE=edge,chrome=1"
+   )
+
+   meta(
+      http-equiv="content-type"
+      content="text/x-component"
+   )
+
+   title
+      block title
+         | default title
+
+   //- general meta include(general-meta)
+   - var meta = {keywords:"meta keywords",description:"meta description",author:"meta author"}
+   include general-meta
+
+   //- social meta(social-meta)
+   - var fb = {title:"post title",url:"post URL",image:"post image",description:"post description",site_name:"site name for FB"}
+   - var twitter = {card:"add twitter card",site:"twitter site name",creator:"twitter author",title:"twitter title",url:"twitter URL",description:"twitter description",image:"twitter image"}
+   - var gp = {name:"google plus name",description:"google plus description",audience:"google plus audience",image:"google plus image",alternativeHeadline:"google plus alternativeHeadline"}
+   include social-meta
+
+   //- feed details(feed)
+   - var feed = {title:"feed title",href:"feed url"}
+   include feed
+
+   //- favicon include(favicon)
+   include favicon
+
+   //- apple touch icon
+   include touch-icon
+
+   //- modernizr
+   script(src="//cdn.jsdelivr.net/modernizr/2.8.3/modernizr.min.js")
+
+   //- stylesheets and external lib
+   link(
+      href="//cdn.jsdelivr.net/normalize/3.0.2/normalize.min.css"
+      media="screen,projection"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+   link(
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+      media="screen,projection"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+   link(
+      href="//cdn.jsdelivr.net/fontawesome/4.2.0/css/font-awesome.min.css"
+      media="screen,projection"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+   link(
+      href="css/main.css"
+      media="screen,projection"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+   link(
+      href="css/print.css"
+      media="print"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+   //- CSS for lte IE8
+   <!--[if lte IE 8]>
+   link(
+      href="css/ie.css"
+      media="screen, projection"
+      type="text/css"
+      rel="stylesheet"
+   )
+   <![endif]-->
+
+   //- IE6 redirect
+   <!--[if ie 6]>
+   include ie6redirect
+   <![endif]-->
+
+   //- CSS for print
+   link(
+      href="css/print.css"
+      media="print"
+      type="text/css"
+      rel="stylesheet"
+   )
+
+body
+   <!--[if lte IE 8]>
+   .browsehappy
+      | You are using an&nbsp;
+      strong
+         | outdated
+      | &nbsp;browser. Please&nbsp;
+      a(
+         href="http://browsehappy.com/"
+         target="_blank"
+         title="Browser Happy"
+      )
+         | upgrade your browser
+      | &nbsp;to improve your experience.
+   <![endif]-->
+
+   //- base wrapper
+   #wrapper
+      header
+         nav
+            div(class="navbar navbar-fixed-top navbar-inverse" role="navigation")
+               .container-fluid
+                  .navbar-header
+                     button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse")
+                        span(class="sr-only") Toggle navigation
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                     a(class="navbar-brand" href="#") html5-boilerplate
+
+                  div(class="navbar-collapse collapse")
+                     ul(class="nav navbar-nav")
+                        li.active
+                           a(href="#") Home
+
+                        li
+                           a(href="#about") About
+
+                        li
+                           a(href="#contact") Contact
+
+                        li.dropdown
+                           a(href="#" class="dropdown-toggle" data-toggle="dropdown") Dropdown
+                              span(class="caret")
+
+                           ul(class="dropdown-menu" role="menu")
+                              li
+                                 a(href="#") Action
+                              li
+                                 a(href="#") Another action
+                              li
+                                 a(href="#") Something else here
+
+                              li.divider
+
+                              li.dropdown-header Heading Area
+
+                              li
+                                 a(href="#") Separated link
+                              li
+                                 a(href="#") One more separated link
+
+                     form(class="navbar-form navbar-right" role="search")
+                        div.form-group
+                           input(type="text" class="form-control" placeholder="Search")
+                           button(type="submit" class="btn btn-default") Submit
+
+      #idletimeout
+         | You will be logged off in
+         span
+            <!-- countdown place holder -->
+         | &nbsp;seconds due to inactivity.
+         a(id="idletimeout-resume" href="#") Click to continue....
+
+      #content
+         section
+            div
+               h2 Fontawesome is working
+               i(class="fa fa-check-square-o")
+               i(class="fa fa-spinner fa-spin")
+               i(class="fa fa-refresh fa-spin")
+               i(class="fa fa-cog fa-spin")
+
+         #jquery-txt
+         #form-validation
+
+         aside <!-- side goes here -->
+
+      footer <!-- footer goes here -->
+
+   <!--[if lte IE 8]>
+   script(src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js")
+   <![endif]-->
+   script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+   script.
+      window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')
+   script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+   script(src="bower_components/jq-idle-timer/src/jquery.idletimer.js")
+   script(src="bower_components/jq-idle-timer/src/jquery.idletimeout.js")
+   script(src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js")
+   script(src="js/main.js")
+
+</html>
