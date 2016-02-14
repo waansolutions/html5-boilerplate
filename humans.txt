@@ -3,13 +3,13 @@
 
 # TEAM
 
-    admin@waan.it -- developer -- waanit
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    html5-boilerplate, Jquery, Google, Fontawesome, Bootstrap and Compass
+    <name>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, SASS, Compass, Fontawesome
-    Normalize.css, jQuery, Modernizr
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
